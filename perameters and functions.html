@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameters and Functions</title>
+    <style>
+        body {
+            background-color:aqua;
+        }
+        div.javascript {
+            text-align: center;
+            background:rgb(116, 234, 194);
+            font-family: cursive;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="javascript">
+    <script>
+        let oddoreven = function (number) {
+            if (number % 2 == 0) {
+                document.write(number + " is an Even number");
+            } else {
+                document.write(number + " is an Odd number");
+            }
+        }
+        let number = prompt("Enter the number:");
+        oddoreven(number);
+        </script>
+        </div>
+</body>
+</html>
